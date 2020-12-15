@@ -40,15 +40,34 @@
     background-color:#FF9442;
 }
 
-.card{
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.9fr 0.1fr;
+    grid-gap: 0px 0px;
+    gap: 0px 0px;
+    grid-template-areas: "top" "bottom";
+    position: relative;
+    left: 30%;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+
+.top { 
+    grid-area: top;
     background-color: #91BED4;
     width: 610px;
-    height: 127px;
-    margin-top: 30px;
-    position: relative;
-    left: 27%;
-    border-radius: 10px
+    height: 112px;
+    border-radius: 10px 10px 0px 0px;
 }
+.bottom { 
+        grid-area: bottom; 
+        background-color:#D9E8F5;
+        width: 610px;
+        height: 15px;
+        border-radius: 0px 0px 10px 10px;
+}
+
 
 .border{
     background-color: #D9E8F5;

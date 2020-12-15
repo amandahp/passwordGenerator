@@ -23,19 +23,10 @@ const GeneratorPassword = () => {
                     </Button>
                 </div>
                 <div className='body-card'>
-                    <Card className={'card'}>
-                        <Form>
-                            <div className='form-row'>
-                                <Form.Group controlId="formGroupEmail">
-
-                                </Form.Group>
-                            </div>
-                        </Form>
-                        test
-                        <Card className='border'>
-
-                        </Card>
-                    </Card>
+                    <div class="grid-container">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
                 </div>
             </container>
             <footer>
